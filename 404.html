@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="css.css">
+    <script src="script.js"></script>
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="Calculadora">
+        <input type="text" name="tela" id="display_tela">
+
+        <div class="botao-container">
+            <button class="botao" onclick="adicionar_parametros('(')"> ( </button>
+            <button class="botao" onclick="adicionar_parametros(')')"> ) </button>
+            <button class="botao" onclick="porcentagem()"> % </button>
+            <button class="botao" onclick="botao_AC()"> AC </button>
+
+            <button class="botao" onclick="adicionar_parametros('7')"> 7 </button>
+            <button class="botao" onclick="adicionar_parametros('8')"> 8 </button>
+            <button class="botao" onclick="adicionar_parametros('9')"> 9 </button>
+            <button class="botao" onclick="adicionar_parametros('/')"> / </button>
+
+            <button class="botao" onclick="adicionar_parametros('4')"> 4 </button>
+            <button class="botao" onclick="adicionar_parametros('5')"> 5 </button>
+            <button class="botao" onclick="adicionar_parametros('6')"> 6 </button>
+            <button class="botao" onclick="adicionar_parametros('*')"> * </button>
+            
+            <button class="botao" onclick="adicionar_parametros('1')"> 1 </button>
+            <button class="botao" onclick="adicionar_parametros('2')"> 2 </button>
+            <button class="botao" onclick="adicionar_parametros('3')"> 3 </button>
+            <button class="botao" onclick="adicionar_parametros('-')"> - </button>
+
+            <button class="botao" onclick="adicionar_parametros('0')"> 0 </button>
+            <button class="botao" onclick="adicionar_parametros('.')"> . </button>
+            <button class="botao" onclick="calcular()"> = </button>
+            <button class="botao" onclick="adicionar_parametros('+')"> + </button>
+        </div>
+    </div>
+    
+</body>
+</html>
